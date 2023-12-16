@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=46525");
+  padding: 0;
+  margin: 0;
+}
