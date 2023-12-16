@@ -1,1 +1,13 @@
-<p>list works!</p>
+<div id="frame">
+    <div>List component</div>
+    <div>
+        <input type="text" [(ngModel)]="inputText" class="input">
+        <button (click)="inputToArray()" class="add">Dodaj</button>
+    </div>
+    <ul>
+        <li *ngFor="let el of elements; index as i" class="el">
+            {{el}}
+            <button (click)="remove(i)" class="rem">usuń</button>
+        </li>
+    </ul>
+</div>
