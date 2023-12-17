@@ -1,0 +1,16 @@
+button.delete{
+  border: 1px solid darkred;
+  color: darkred;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+li{
+  border-bottom: 1px solid #333;
+  padding: 10px 0px 5px 0px;
+  list-style-type: none;
+}
+
+li>a{
+  text-decoration: none;
+}
