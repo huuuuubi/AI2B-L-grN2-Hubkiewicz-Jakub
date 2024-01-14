@@ -1,0 +1,55 @@
+@baseUrl = http://localhost:36525/
+#### GET list of tasks
+GET {{baseUrl}}/todos/
+Accept: application/json
+#
+#### GET list of non-comleted tasks
+#GET {{baseUrl}}/?completed=false
+#Accept: application/json
+#
+#### GET list of comleted tasks
+#GET {{baseUrl}}/?completed=true
+#Accept: application/json
+#
+#### GET list of archived tasks
+#GET {{baseUrl}}/?archived=false
+#Accept: application/json
+#
+#### GET list of tasks sorted by ID ASC
+#GET {{baseUrl}}/?_sort=id&_order=asc
+#Accept: application/json
+#
+#### GET list of tasks sorted by ID DESC
+#GET {{baseUrl}}/?_sort=id&_order=desc
+#Accept: application/json
+#
+#### GET single task
+#GET {{baseUrl}}/1
+#Accept: application/json
+#
+#### POST new task
+#POST http://localhost:36525/todos
+#Content-Type: application/json
+#
+#{
+#  "title": "Drugie zadanie",
+#  "deadline": "2024-01-14",
+#  "completed": false,
+#  "archived": false
+#}
+
+#### PUT update task
+#PUT http://localhost:36525/todos/ad5d
+#Content-Type: application/json
+#
+#{
+#  "id": 3,
+#  "title": "Drugie zadanie",
+#  "deadline": "2024-01-14",
+#  "completed": true,
+#  "archived": true
+#}
+
+#### DELETE task
+#DELETE {{baseUrl}}/3
+#Content-Type: application/json

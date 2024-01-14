@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "deadline": "1900-01-01",
+      "completed": false,
+      "archived": false
+    },
+    {
+      "id": 2,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": false,
+      "archived": false
+    },
+    {
+      "id": 3,
+      "title": "Drugie zadanie",
+      "deadline": "2024-01-14",
+      "completed": true,
+      "archived": true
+    },
+    {
+      "id": 4,
+      "title": "Test",
+      "deadline": "2024-01-14",
+      "completed": true,
+      "archived": true
+    }
+  ]
+}
