@@ -10,11 +10,12 @@ export class TasksService {
   readonly baseUrl = 'http://localhost:36525';
 
   constructor(
-    private http: HttpClient,
+    private http: HttpClient
   ) { }
 
   public index(archived = false): Observable<Task[]> {
     const url = this.baseUrl + '/todos';
+
     return this.http.get<Task[]>(url, {
       params: {
         archived: archived,
