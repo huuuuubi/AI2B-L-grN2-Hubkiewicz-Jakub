@@ -1,5 +1,4 @@
 ### GET list of tasks
-@baseUrl = http://localhost:36525/todos
 GET {{baseUrl}}/
 Accept: application/json
 

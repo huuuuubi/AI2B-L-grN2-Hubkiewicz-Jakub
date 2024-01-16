@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": false,
+      "archived": false
+    },
+    {
+      "id": 2,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": true,
+      "archived": false
+    },
+    {
+      "id": 3,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": false,
+      "archived": true
+    },
+    {
+      "id": 4,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": true,
+      "archived": true
+    },
+    {
+      "title": "Hello World",
+      "deadline": "2024-01-21",
+      "completed": false,
+      "archived": false,
+      "id": 5
+    }
+  ]
+}
